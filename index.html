@@ -1,0 +1,50 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Document</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+         <h1 class="wrapper_h1">В корзине: <span class="basket"></span> товар</h1>
+         <div class="block_btns">
+            <button class="btn" id="btn1">Показать первые 5</button>
+            <button class="btn" id="btn2">Показать все</button>
+         </div>
+         <div class="shop">
+         </div>
+   </div>
+
+
+    <center>
+        <h1>CART</h1>
+        <hr>
+    </center>
+    <div class="shop cart">
+            <div class="item">
+                <div class="left">
+                    <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="">
+                    <h3>title</h3>
+                </div>
+                <div class="right">
+                    <b>price</b>
+                    <div class="counter">
+                        <button data-count="inc" >+</button>
+                        <span>1</span>
+                        <button data-count="dec" >-</button>
+                    </div>
+                    <button class="del" >X</button>
+                </div>
+            </div>
+    </div>
+
+
+   <script src="./index.js"></script>
+</body>
+
+</html>

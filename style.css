@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    padding: 50px 0;
+}
+
+/* ============================================================== */
+
+.wrapper {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+.wrapper_h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.block_btns {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 65px;
+}
+
+.btn {
+    width: 254px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff;
+    display: block;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
+
+.product {
+    width: 364px;
+    height: 475px;
+    overflow: hidden;
+}
+
+
+.product_image {
+    padding: 19px 125px;
+    border: 2px solid black;
+}
+
+.img {
+    width: 115px;
+    height: 161px;
+}
+
+.block_info {
+    padding: 30px 29px 24px 30px;
+    background-color: #000000;
+}
+
+.info_clothing {
+    font-size: 24px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.text_grey {
+    color: #ffffff8f;
+    margin-bottom: 16px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.fovarits {
+    width: 305px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: .2s ease;
+    overflow: hidden;
+    border: none;
+}
+
+.active {
+    width: 305px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1F86FF;
+    border: none;
+    transition: .2s ease;
+}
+.cart {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cart .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px #c4c4c4;
+}
+.item .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart .item .left img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.cart .item .counter {
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 24px;
+}
+.cart .item .counter button {
+    all: unset;
+    font-size: 24px;
+    font-weight: 600;
+    color: green;
+    padding: 10px;
+}
+
+.cart .item {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.right .del {
+    all: unset;
+    font-size: 24px;
+    font-weight: 600;
+}
